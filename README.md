@@ -6,6 +6,7 @@ MenuFoods adalah program berbasis web yang menyajikan resep menu makanan yaitu m
 - Kampus Asal: Universitas Telkom
 - Program Studi: S1 Rekayasa Perangkat Lunak
 - ID GDSC ITB: 220020072
+
 |Detail Kriteria Submisi|
 |--|
 Buatlah tampilan website yang menyajikan informasi menu makanan. Tampilan ini terdiri atas dua bagian, yaitu: 
