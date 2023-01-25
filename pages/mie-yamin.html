@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mie Yamin - MenuFoods</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://kit.fontawesome.com/7d6bff7577.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="notification">
+        <div class="container">
+            <p class="message">Halaman ini sudah rensponsive. <a href="https://github.com/haululazkiyaa/gdscitb-intro-to-fe#readme">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a></p>
+            <button class="btn-close" onclick="hideNotification()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <header class="text-center">
+        <div class="container">
+            <h1 class="brand">MenuFoods</h1>
+            <p>Menu Makanan Untuk Semua</p>
+        </div>
+        <nav class="text-center">
+            <div class="container">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://github.com/haululazkiyaa/">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="page">
+        <div class="container">
+            <aside class="card">
+                <figure>
+                    <img src="https://www.bango.co.id/gfx/recipes/temp_thumb-1625206943.jpg" alt="Gambar" width="100"/>
+                </figure>
+                <h2>Mie Yamin</h2>
+                <p> Legenda Kuliner khas indonesia, Mie Yamin. Kuliner yang satu ini hanya menggunakan bahan-bahan terbaik dalam hidangannya.</p>
+            </aside>
+            <article class="card">
+                <h3>Bahan-Bahan</h3>
+                <ul>
+                    <li>500 gr Mie basah/kuning</li>
+                    <li>150 gr Udang segar ( 1:35 ), kupas buang kulit</li>
+                    <li>150 gr Daging sapi/ kambing yang sudah direbus, diiris tipis</li>
+                    <li>1 buah Tomat, di potong memanjang segitiga</li>
+                    <li>5 siung Bawang merah, diiris tipis</li>
+                    <li>4 siung bawang putih , diirs tipis</li>
+                    <li>100 gr Kol putih, diiris halus</li>
+                    <li>100 gr Tauge segar, buang ekornya</li>
+                    <li>25 gr Bawang daun , diiris tipis</li>
+                    <li>10 gr Seledri, diiris halus</li>
+                    <li>600 ml Kaldu sapi ( dari rebusan daging sapi )</li>
+                    <li>2 sdm Kecap manis Bango</li>
+                    <li>2 sdm Kecap asin</li>
+                    <li>4 sdm Minyak goreng</li>
+                </ul>
+                <h3>Langkah Pembuatan</h3>
+                <ul>
+                    <li>Rebus mie dengan air mendidih selama 2-3 menit</li>
+                    <li>Tumis bumbu dengan minyak makan (bawang putih, irisan kol, irisan daun bawang, cabe merah giling, dan vetsin)</li>
+                    <li>Masukkan air&nbsp;kaldu rebusan daging sapi</li>
+                    <li>Kocok satu butir telur</li>
+                    <li>Tiriskan mie yang sudah direbus dan mengembang lalu masukkan ke wajan tumis</li>
+                    <li>Masukkan telur kocok ke dalam wajan tumis</li>
+                    <li>Tunggu sampai mendidih</li>
+                    <li>Siapkan satu butir &nbsp;telur lagi untuk digoreng menjadi telur mata sapi.</li>
+                    <li>Setelah mie mendidih, tuang ke piring&nbsp;</li>
+                    <li>Taburkan rendang yang sudah dihaluskan, lalu hidangkan dengan telur mata sapi</li>
+                </ul>
+                <p>Sumber: <a href="https://www.bango.co.id/Menu/detail/563/mie-aceh-sabang">bango.co.id</a></p>
+            </article>
+            <div class="clear"></div>
+        </div>
+    </main>
+    <footer class="text-center">
+        <p>Dibuat dengan ❤ di Sumedang</p>
+    </footer>
+    <script>
+        const notification = document.getElementById("notification");
+        
+        function hideNotification() {
+            if (notification.classList == "") {
+                notification.classList.add("hide");
+            } else {
+                notification.classList.remove("hide");
+            };
+        };
+    </script>
+</body>
+
+</html>
