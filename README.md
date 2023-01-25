@@ -9,6 +9,7 @@ MenuFoods adalah program berbasis web yang menyajikan resep menu makanan yaitu m
 
 |Detail Kriteria Submisi|
 |--|
+
 Buatlah tampilan website yang menyajikan informasi menu makanan. Tampilan ini terdiri atas dua bagian, yaitu: 
  - [x] Home Page: berisi daftar nama menu dan gambar menu.
  - [x] Detail Menu: Untuk setiap menu, sertakan halaman dengan gambar
